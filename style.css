@@ -1,6 +1,6 @@
 body {
     font-family: 'Abhaya Libre', serif;
-	background: linear-gradient(332deg, #2193b0, #6dd5ed);
+	background: linear-gradient(332deg, #89f7fe, #66a6ff);
  
 	background-attachment: fixed; 
 	background-size: cover;
@@ -47,4 +47,12 @@ h2{
     margin-top: 5%;
     color:white;
     font-size: 2em;
- }
+}
+
+img{
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  fill: white;
+}
