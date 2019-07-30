@@ -1,24 +1,27 @@
 body {
     font-family: 'Abhaya Libre', serif;
-	background: linear-gradient(332deg, #89f7fe, #66a6ff);
- 
-	background-attachment: fixed; 
-	background-size: cover;
+    
+    background-color: #ba9a8e;
+    background-image: linear-gradient(315deg, #9fd2fb 0%, #cbe7fc 74%);
 	display: grid;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
 }
 
+
 div {
-	width: 30rem;
+	width: 40rem;
 	height: 20rem;
-	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
+    box-shadow: 5px 3px 30px rgba(0, 0, 0, .2);	
+
 	border-radius: 5px;
 	position: relative;
 	z-index: 1;
 	background: inherit;
-	overflow: hidden;
+    overflow: hidden;
+    text-align: center;
+
 }
 
 div:before {
@@ -31,28 +34,32 @@ div:before {
 	right: 0;
 	bottom: 0;
 	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-	filter: blur(10px);
+	filter: blur(20px);
 	margin: -20px;
 }
 
 h1{
-    text-align: center;
-    color : black;
-    font-size: 2.5em;
-    text-shadow: 3px 4px 2px #474747;
+    color : #2350ce;
+	font-size: 2.5em;
+	text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 }
 
 h2{
-    text-align: center;
     margin-top: 5%;
     color:white;
-    font-size: 2em;
+    font-size: 2.8em;
+    color: #ba77cc;
 }
 
-img{
-    margin-top: 10%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  fill: white;
+.fas{
+    margin: 5% auto;
+    color: #508c9f;
 }
+
+hr { 
+	display: block;
+	margin: 0.5em auto;
+	border-style: inset;
+	border-width: 1px;
+	width: 50%;
+  } 
