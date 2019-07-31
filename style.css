@@ -1,8 +1,6 @@
 body {
-    font-family: 'Abhaya Libre', serif;
-    
-    background-color: white;
-    
+    font-family: 'Abhaya Libre', serif;    
+    background-color: white;    
 	display: grid;
 	align-items: center;
 	justify-content: center;
@@ -12,16 +10,14 @@ body {
 
 div {
 	width: 40rem;
-	height: 20rem;
+	height: 22rem;
     box-shadow: 5px 3px 30px rgba(0, 0, 0, .2);	
-
 	border-radius: 5px;
 	position: relative;
 	z-index: 1;
 	background-image: linear-gradient(315deg, #9fd2fb 0%, #cbe7fc 74%);
     overflow: hidden;
     text-align: center;
-
 }
 
 div:before {
@@ -46,14 +42,15 @@ h1{
 
 h2{
     margin-top: 5%;
-    color:white;
-    font-size: 2.8em;
     color: #ba77cc;
 }
 
 .fas{
-    margin: 5% auto;
-    color: #508c9f;
+	margin: 2% auto;
+	color: #508c9f;
+	position: fixed;
+	left: 49%;
+	top: 57%;
 }
 
 hr { 

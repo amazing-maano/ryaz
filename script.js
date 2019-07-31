@@ -1,4 +1,4 @@
-let names = ['Inderpreet', 
+let namesArray = ['Inderpreet', 
             'Gauravjeet', 
             'Vigasdeep', 
             'Shaina', 
@@ -12,7 +12,14 @@ let names = ['Inderpreet',
             'Kamal', 
             'Rajvir'
   ];
+
+
+document.getElementById('cl').addEventListener('click', function(){
+  let names = namesArray.sort();
   
   let randomName = names[Math.floor(Math.random() * names.length)];
   
-  document.getElementById('name').innerHTML = randomName;
+  let result = document.getElementById('name');
+  result.style.fontSize = '2.5em';
+  result.innerHTML = randomName;
+});
