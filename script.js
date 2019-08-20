@@ -21,18 +21,5 @@ document.getElementById('cl').addEventListener('click', function(){
     res.style.fontSize = '2.5em';
     res.innerHTML = randomName;
 
-    $.ajax({
-    url: '/sendEmail',
-    data: 'randomName='+randomName,
-    type: 'POST',
-    dataType: 'text',
-    success: function(response) {
-            console.log(response);
-        },
-    error: function(error) {
-            console.log(error);
-        }
-    })
-
 });
 
