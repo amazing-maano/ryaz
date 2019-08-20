@@ -7,7 +7,6 @@ body {
 	height: 100vh;
 }
 
-
 div {
 	width: 40rem;
 	height: 22rem;
@@ -51,6 +50,10 @@ h2{
 	position: fixed;
 	left: 49%;
 	top: 57%;
+}
+
+.fas:hover {
+	color: #2350ce;
 }
 
 hr { 
